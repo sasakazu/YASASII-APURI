@@ -1,0 +1,6 @@
+framework module Pods_YASASHII_APURITests {
+  umbrella header "Pods-YASASHII-APURITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

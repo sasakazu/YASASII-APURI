@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FF6EB1A8C0B2FAC56F978F6 /* Pods_YASASHII_APURI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF5A0C5D456764868F0A379 /* Pods_YASASHII_APURI.framework */; };
+		5E0ADB3D6E9F8FB2BF4052E8 /* Pods_YASASHII_APURITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C36EEEF7DB1C95B3A7C3B7 /* Pods_YASASHII_APURITests.framework */; };
+		73892763795B17DB915B9D91 /* Pods_YASASHII_APURIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F757DE4DFD45302617A2CD7A /* Pods_YASASHII_APURIUITests.framework */; };
 		73D3D6A0226337DA00CF623C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D3D69F226337DA00CF623C /* AppDelegate.swift */; };
 		73D3D6A2226337DA00CF623C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D3D6A1226337DA00CF623C /* ViewController.swift */; };
 		73D3D6A5226337DA00CF623C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D3D6A3226337DA00CF623C /* Main.storyboard */; };
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06397BE10B0704EF1B18DE99 /* Pods-YASASHII-APURITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YASASHII-APURITests.release.xcconfig"; path = "Target Support Files/Pods-YASASHII-APURITests/Pods-YASASHII-APURITests.release.xcconfig"; sourceTree = "<group>"; };
+		2DF5A0C5D456764868F0A379 /* Pods_YASASHII_APURI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YASASHII_APURI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C36EEEF7DB1C95B3A7C3B7 /* Pods_YASASHII_APURITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YASASHII_APURITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B2E8FEFCC40920DE7D954F /* Pods-YASASHII-APURIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YASASHII-APURIUITests.release.xcconfig"; path = "Target Support Files/Pods-YASASHII-APURIUITests/Pods-YASASHII-APURIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		73D3D69C226337DA00CF623C /* YASASHII-APURI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YASASHII-APURI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D3D69F226337DA00CF623C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73D3D6A1226337DA00CF623C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		73D3D6BB226337DC00CF623C /* YASASHII-APURIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YASASHII-APURIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D3D6BF226337DC00CF623C /* YASASHII_APURIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YASASHII_APURIUITests.swift; sourceTree = "<group>"; };
 		73D3D6C1226337DC00CF623C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81F6C8DB0305239D1C68D569 /* Pods-YASASHII-APURI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YASASHII-APURI.release.xcconfig"; path = "Target Support Files/Pods-YASASHII-APURI/Pods-YASASHII-APURI.release.xcconfig"; sourceTree = "<group>"; };
+		A3F4FBC6363779DE8B6E1AB7 /* Pods-YASASHII-APURI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YASASHII-APURI.debug.xcconfig"; path = "Target Support Files/Pods-YASASHII-APURI/Pods-YASASHII-APURI.debug.xcconfig"; sourceTree = "<group>"; };
+		B8A53A29526C205458EA9DB3 /* Pods-YASASHII-APURITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YASASHII-APURITests.debug.xcconfig"; path = "Target Support Files/Pods-YASASHII-APURITests/Pods-YASASHII-APURITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB0FE4B1014901C490145639 /* Pods-YASASHII-APURIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YASASHII-APURIUITests.debug.xcconfig"; path = "Target Support Files/Pods-YASASHII-APURIUITests/Pods-YASASHII-APURIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F757DE4DFD45302617A2CD7A /* Pods_YASASHII_APURIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YASASHII_APURIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF6EB1A8C0B2FAC56F978F6 /* Pods_YASASHII_APURI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E0ADB3D6E9F8FB2BF4052E8 /* Pods_YASASHII_APURITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73892763795B17DB915B9D91 /* Pods_YASASHII_APURIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				73D3D6B3226337DC00CF623C /* YASASHII-APURITests */,
 				73D3D6BE226337DC00CF623C /* YASASHII-APURIUITests */,
 				73D3D69D226337DA00CF623C /* Products */,
+				CD0588C2740D113595453711 /* Pods */,
+				F20B609F041E8C1E5F9FC492 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,30 @@
 			path = "YASASHII-APURIUITests";
 			sourceTree = "<group>";
 		};
+		CD0588C2740D113595453711 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3F4FBC6363779DE8B6E1AB7 /* Pods-YASASHII-APURI.debug.xcconfig */,
+				81F6C8DB0305239D1C68D569 /* Pods-YASASHII-APURI.release.xcconfig */,
+				B8A53A29526C205458EA9DB3 /* Pods-YASASHII-APURITests.debug.xcconfig */,
+				06397BE10B0704EF1B18DE99 /* Pods-YASASHII-APURITests.release.xcconfig */,
+				DB0FE4B1014901C490145639 /* Pods-YASASHII-APURIUITests.debug.xcconfig */,
+				68B2E8FEFCC40920DE7D954F /* Pods-YASASHII-APURIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F20B609F041E8C1E5F9FC492 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DF5A0C5D456764868F0A379 /* Pods_YASASHII_APURI.framework */,
+				47C36EEEF7DB1C95B3A7C3B7 /* Pods_YASASHII_APURITests.framework */,
+				F757DE4DFD45302617A2CD7A /* Pods_YASASHII_APURIUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73D3D6C4226337DC00CF623C /* Build configuration list for PBXNativeTarget "YASASHII-APURI" */;
 			buildPhases = (
+				ABAFB2D5B9EFCFF52BF78CE6 /* [CP] Check Pods Manifest.lock */,
 				73D3D698226337DA00CF623C /* Sources */,
 				73D3D699226337DA00CF623C /* Frameworks */,
 				73D3D69A226337DA00CF623C /* Resources */,
+				843980ACF3F91F475E521835 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73D3D6C7226337DC00CF623C /* Build configuration list for PBXNativeTarget "YASASHII-APURITests" */;
 			buildPhases = (
+				BFBE9711F6B8862AEB95DD62 /* [CP] Check Pods Manifest.lock */,
 				73D3D6AC226337DC00CF623C /* Sources */,
 				73D3D6AD226337DC00CF623C /* Frameworks */,
 				73D3D6AE226337DC00CF623C /* Resources */,
@@ -167,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73D3D6CA226337DC00CF623C /* Build configuration list for PBXNativeTarget "YASASHII-APURIUITests" */;
 			buildPhases = (
+				44450E9D039976A56261919F /* [CP] Check Pods Manifest.lock */,
 				73D3D6B7226337DC00CF623C /* Sources */,
 				73D3D6B8226337DC00CF623C /* Frameworks */,
 				73D3D6B9226337DC00CF623C /* Resources */,
@@ -250,6 +295,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44450E9D039976A56261919F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YASASHII-APURIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		843980ACF3F91F475E521835 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YASASHII-APURI/Pods-YASASHII-APURI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YASASHII-APURI/Pods-YASASHII-APURI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABAFB2D5B9EFCFF52BF78CE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YASASHII-APURI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFBE9711F6B8862AEB95DD62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YASASHII-APURITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		73D3D698226337DA00CF623C /* Sources */ = {
@@ -430,6 +568,7 @@
 		};
 		73D3D6C5226337DC00CF623C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3F4FBC6363779DE8B6E1AB7 /* Pods-YASASHII-APURI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +587,7 @@
 		};
 		73D3D6C6226337DC00CF623C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F6C8DB0305239D1C68D569 /* Pods-YASASHII-APURI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +606,7 @@
 		};
 		73D3D6C8226337DC00CF623C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A53A29526C205458EA9DB3 /* Pods-YASASHII-APURITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +628,7 @@
 		};
 		73D3D6C9226337DC00CF623C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06397BE10B0704EF1B18DE99 /* Pods-YASASHII-APURITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +650,7 @@
 		};
 		73D3D6CB226337DC00CF623C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0FE4B1014901C490145639 /* Pods-YASASHII-APURIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +671,7 @@
 		};
 		73D3D6CC226337DC00CF623C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B2E8FEFCC40920DE7D954F /* Pods-YASASHII-APURIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
