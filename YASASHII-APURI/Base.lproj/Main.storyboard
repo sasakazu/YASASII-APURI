@@ -42,39 +42,53 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hBT-Jw-vBI"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Don't ToDo List" id="3pb-a1-Sg7"/>
+                    <navigationItem key="navigationItem" title="Don't ToDo List" id="3pb-a1-Sg7">
+                        <barButtonItem key="rightBarButtonItem" title="追加する" id="pSR-EG-kZO">
+                            <connections>
+                                <segue destination="xFw-Cc-eQ7" kind="show" id="D3j-Lf-Qqi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bAF-fA-xZs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2044.9275362318842" y="337.5"/>
+            <point key="canvasLocation" x="1097" y="-19"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Not To Do-->
         <scene sceneID="hqo-7F-qth">
             <objects>
-                <viewController id="xFw-Cc-eQ7" sceneMemberID="viewController">
+                <viewController id="xFw-Cc-eQ7" customClass="addNotToDo" customModule="YASASHII_APURI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Leg-rf-BdE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="今日、やりたくないこと、したくないことを追加してみましょう。" translatesAutoresizingMaskIntoConstraints="NO" id="xIn-xA-tmm">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="今日、やりたくないこと、したくないことを追加してみましょう。" translatesAutoresizingMaskIntoConstraints="NO" id="xIn-xA-tmm">
                                 <rect key="frame" x="20" y="114" width="374" height="131"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.192208292" green="0.4613459506" blue="1" alpha="0.92816245720000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="131" id="QNl-fa-jXZ"/>
+                                    <constraint firstAttribute="width" constant="374" id="bzg-6R-O8u"/>
+                                </constraints>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="飲み会に行きたくない" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9lu-wV-j5y">
-                                <rect key="frame" x="20" y="290" width="374" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="飲み会に行きたくない" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9lu-wV-j5y">
+                                <rect key="frame" x="20" y="290" width="374" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="hsy-gK-g9V"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0h-yK-d5G">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0h-yK-d5G">
                                 <rect key="frame" x="20" y="671" width="374" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.19220829195500877" green="0.46134595057130257" blue="1" alpha="0.92816245720000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="F9o-IZ-mpA"/>
+                                    <constraint firstAttribute="width" constant="374" id="UVD-0N-Bai"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="これをやりたくない！">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -82,13 +96,32 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9lu-wV-j5y" firstAttribute="trailing" secondItem="Leg-rf-BdE" secondAttribute="trailingMargin" id="2CS-Qa-Gy3"/>
+                            <constraint firstItem="9lu-wV-j5y" firstAttribute="leading" secondItem="xIn-xA-tmm" secondAttribute="leading" id="6oZ-kn-QYf"/>
+                            <constraint firstItem="R0h-yK-d5G" firstAttribute="leading" secondItem="hAY-Lu-56a" secondAttribute="leading" constant="20" id="Dim-we-UaA"/>
+                            <constraint firstItem="hAY-Lu-56a" firstAttribute="trailing" secondItem="R0h-yK-d5G" secondAttribute="trailing" constant="20" id="H3F-8B-XDD"/>
+                            <constraint firstItem="hAY-Lu-56a" firstAttribute="trailing" secondItem="xIn-xA-tmm" secondAttribute="trailing" constant="20" id="YVI-PT-nWN"/>
+                            <constraint firstItem="xIn-xA-tmm" firstAttribute="top" secondItem="hAY-Lu-56a" secondAttribute="top" constant="26" id="bKF-lb-oCU"/>
+                            <constraint firstItem="hAY-Lu-56a" firstAttribute="bottom" secondItem="R0h-yK-d5G" secondAttribute="bottom" constant="93" id="blL-ok-5SG"/>
+                            <constraint firstItem="9lu-wV-j5y" firstAttribute="leading" secondItem="R0h-yK-d5G" secondAttribute="leading" id="nSw-V8-Ohy"/>
+                            <constraint firstItem="9lu-wV-j5y" firstAttribute="trailing" secondItem="xIn-xA-tmm" secondAttribute="trailing" id="nUF-6s-Ydg"/>
+                            <constraint firstItem="9lu-wV-j5y" firstAttribute="trailing" secondItem="R0h-yK-d5G" secondAttribute="trailing" id="qXn-aJ-AhR"/>
+                            <constraint firstItem="9lu-wV-j5y" firstAttribute="leading" secondItem="Leg-rf-BdE" secondAttribute="leadingMargin" id="sgB-GP-xcj"/>
+                            <constraint firstItem="xIn-xA-tmm" firstAttribute="leading" secondItem="hAY-Lu-56a" secondAttribute="leading" constant="20" id="u4s-BB-icP"/>
+                            <constraint firstItem="9lu-wV-j5y" firstAttribute="top" secondItem="Leg-rf-BdE" secondAttribute="top" constant="290" id="xmr-51-KgP"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="hAY-Lu-56a"/>
                     </view>
                     <navigationItem key="navigationItem" id="Agp-9i-NYY"/>
+                    <connections>
+                        <outlet property="notBtton" destination="R0h-yK-d5G" id="fnC-QM-Zwx"/>
+                        <outlet property="notTV" destination="xIn-xA-tmm" id="Xc5-Fi-4qM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uPK-6X-pRi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2850.7246376811595" y="337.5"/>
+            <point key="canvasLocation" x="1843" y="-19"/>
         </scene>
         <!--今日の気分チェック-->
         <scene sceneID="d0E-lc-fDQ">
@@ -104,7 +137,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oSr-xk-wIJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="406" y="-343"/>
+            <point key="canvasLocation" x="481" y="-721"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="3Xk-O0-p9b">
@@ -180,7 +213,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZVq-So-NkB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1315.9420289855072" y="337.5"/>
+            <point key="canvasLocation" x="251" y="-19"/>
         </scene>
         <!--豆知識-->
         <scene sceneID="N8k-Vb-Bhh">

@@ -24,20 +24,10 @@
                                 <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smaily" translatesAutoresizingMaskIntoConstraints="NO" id="Lpe-68-qT4">
-                                <rect key="frame" x="134" y="235" width="146" height="129"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="129" id="FCi-ne-bg7"/>
-                                    <constraint firstAttribute="width" constant="146" id="YoA-9i-4ey"/>
-                                </constraints>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="WOY-gw-EUi" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="66e-gB-RbT"/>
-                            <constraint firstItem="Lpe-68-qT4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="134" id="7Yo-q0-SDL"/>
-                            <constraint firstItem="WOY-gw-EUi" firstAttribute="top" secondItem="Lpe-68-qT4" secondAttribute="bottom" constant="63" id="RBi-E8-G6P"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Lpe-68-qT4" secondAttribute="trailing" constant="134" id="kR8-kp-Y2z"/>
                             <constraint firstItem="WOY-gw-EUi" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="zqi-lh-yUY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -48,7 +38,4 @@
             <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="smaily" width="240" height="240"/>
-    </resources>
 </document>

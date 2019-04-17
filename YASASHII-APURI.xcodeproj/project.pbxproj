@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0FF6EB1A8C0B2FAC56F978F6 /* Pods_YASASHII_APURI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF5A0C5D456764868F0A379 /* Pods_YASASHII_APURI.framework */; };
 		5E0ADB3D6E9F8FB2BF4052E8 /* Pods_YASASHII_APURITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C36EEEF7DB1C95B3A7C3B7 /* Pods_YASASHII_APURITests.framework */; };
+		7311EEFA226720FC0011B63E /* addNotToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311EEF9226720FC0011B63E /* addNotToDo.swift */; };
 		73892763795B17DB915B9D91 /* Pods_YASASHII_APURIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F757DE4DFD45302617A2CD7A /* Pods_YASASHII_APURIUITests.framework */; };
 		73D3D6A0226337DA00CF623C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D3D69F226337DA00CF623C /* AppDelegate.swift */; };
 		73D3D6A2226337DA00CF623C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D3D6A1226337DA00CF623C /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 		2DF5A0C5D456764868F0A379 /* Pods_YASASHII_APURI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YASASHII_APURI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47C36EEEF7DB1C95B3A7C3B7 /* Pods_YASASHII_APURITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YASASHII_APURITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B2E8FEFCC40920DE7D954F /* Pods-YASASHII-APURIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YASASHII-APURIUITests.release.xcconfig"; path = "Target Support Files/Pods-YASASHII-APURIUITests/Pods-YASASHII-APURIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7311EEF9226720FC0011B63E /* addNotToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNotToDo.swift; sourceTree = "<group>"; };
 		73D3D69C226337DA00CF623C /* YASASHII-APURI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YASASHII-APURI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D3D69F226337DA00CF623C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73D3D6A1226337DA00CF623C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7311EEFB226721100011B63E /* Don't ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				7311EEF9226720FC0011B63E /* addNotToDo.swift */,
+			);
+			path = "Don't ToDo";
+			sourceTree = "<group>";
+		};
 		73D3D693226337DA00CF623C = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +127,7 @@
 				73D3D69F226337DA00CF623C /* AppDelegate.swift */,
 				73D3D6A1226337DA00CF623C /* ViewController.swift */,
 				73D3D6A3226337DA00CF623C /* Main.storyboard */,
+				7311EEFB226721100011B63E /* Don't ToDo */,
 				73D3D6A6226337DC00CF623C /* Assets.xcassets */,
 				73D3D6A8226337DC00CF623C /* LaunchScreen.storyboard */,
 				73D3D6AB226337DC00CF623C /* Info.plist */,
@@ -152,7 +163,6 @@
 				DB0FE4B1014901C490145639 /* Pods-YASASHII-APURIUITests.debug.xcconfig */,
 				68B2E8FEFCC40920DE7D954F /* Pods-YASASHII-APURIUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -394,6 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7311EEFA226720FC0011B63E /* addNotToDo.swift in Sources */,
 				73D3D6A2226337DA00CF623C /* ViewController.swift in Sources */,
 				73D3D6A0226337DA00CF623C /* AppDelegate.swift in Sources */,
 			);
