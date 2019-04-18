@@ -13,7 +13,7 @@
         <!--Don't ToDo List-->
         <scene sceneID="r75-2g-6M0">
             <objects>
-                <viewController id="ETb-bC-fcM" sceneMemberID="viewController">
+                <viewController id="ETb-bC-fcM" customClass="notToDoTable" customModule="YASASHII_APURI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4IA-4y-T0u">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -31,6 +31,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="ETb-bC-fcM" id="2FT-wQ-JwM"/>
+                                    <outlet property="delegate" destination="ETb-bC-fcM" id="cRG-T9-xOR"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -49,6 +53,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="notToDoTable" destination="4qx-zz-aOt" id="xJ5-Ny-hZP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bAF-fA-xZs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -93,6 +100,9 @@
                                 <state key="normal" title="これをやりたくない！">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="notToDoBtn:" destination="xFw-Cc-eQ7" eventType="touchUpInside" id="bN8-fP-Hpv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -115,13 +125,14 @@
                     </view>
                     <navigationItem key="navigationItem" id="Agp-9i-NYY"/>
                     <connections>
+                        <outlet property="addNotTF" destination="9lu-wV-j5y" id="tOq-3J-4Lw"/>
                         <outlet property="notBtton" destination="R0h-yK-d5G" id="fnC-QM-Zwx"/>
                         <outlet property="notTV" destination="xIn-xA-tmm" id="Xc5-Fi-4qM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uPK-6X-pRi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1843" y="-19"/>
+            <point key="canvasLocation" x="1906" y="-19"/>
         </scene>
         <!--今日の気分チェック-->
         <scene sceneID="d0E-lc-fDQ">
@@ -137,7 +148,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oSr-xk-wIJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="481" y="-721"/>
+            <point key="canvasLocation" x="251" y="-735"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="3Xk-O0-p9b">
