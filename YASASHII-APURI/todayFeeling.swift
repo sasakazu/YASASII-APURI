@@ -39,7 +39,7 @@ class todayFeeling: UIViewController {
         let alert: UIAlertController = UIAlertController(title: nil, message: "今日も一日一歩ずついきましょう！", preferredStyle:  UIAlertController.Style.alert)
         
    
-        let defaultAction: UIAlertAction = UIAlertAction(title: "はい", style: UIAlertAction.Style.default, handler:{
+        let defaultAction: UIAlertAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler:{
             (action: UIAlertAction!) -> Void in
             
         })
@@ -59,7 +59,7 @@ class todayFeeling: UIViewController {
         let alert: UIAlertController = UIAlertController(title: nil, message: "ボチボチいきましょう。", preferredStyle:  UIAlertController.Style.alert)
         
         
-        let defaultAction: UIAlertAction = UIAlertAction(title: "はい", style: UIAlertAction.Style.default, handler:{
+        let defaultAction: UIAlertAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler:{
             (action: UIAlertAction!) -> Void in
             
         })
@@ -82,7 +82,7 @@ class todayFeeling: UIViewController {
         let alert: UIAlertController = UIAlertController(title: nil , message: "無理しないでね", preferredStyle:  UIAlertController.Style.alert)
         
         
-        let defaultAction: UIAlertAction = UIAlertAction(title: "はい", style: UIAlertAction.Style.default, handler:{
+        let defaultAction: UIAlertAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler:{
             (action: UIAlertAction!) -> Void in
             
         })

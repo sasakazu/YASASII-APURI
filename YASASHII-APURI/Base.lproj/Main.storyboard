@@ -426,6 +426,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ms9-ww-19y"/>
                     </view>
+                    <navigationItem key="navigationItem" id="BtC-g3-dtM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SJd-xt-2fd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
