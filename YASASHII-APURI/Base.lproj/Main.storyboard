@@ -157,9 +157,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1U-hJ-8fR">
-                                <rect key="frame" x="20" y="683" width="84" height="71"/>
+                                <rect key="frame" x="20" y="683" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.45610180921068288" blue="0.14958219851941179" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.45610180921068288" blue="0.14958219851941179" alpha="0.8435359589041096" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                 <state key="normal" title="Good!">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -168,22 +168,10 @@
                                     <action selector="goodBtn:" destination="S0R-ju-QGh" eventType="touchUpInside" id="kdY-67-ZF5"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWH-aI-YPT">
-                                <rect key="frame" x="165" y="683" width="84" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.18675297367525412" green="1" blue="0.30185019410037806" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <state key="normal" title="So so..">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="sosoBtn:" destination="S0R-ju-QGh" eventType="touchUpInside" id="DyN-4L-dvo"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Zg-rc-ofR">
-                                <rect key="frame" x="310" y="683" width="84" height="71"/>
+                                <rect key="frame" x="294" y="683" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.11196934319201279" green="0.36718879876117283" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.11196934319201279" green="0.36718879876117283" blue="1" alpha="0.81680757705479456" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                 <state key="normal" title="Bad">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -196,14 +184,28 @@
                                 <rect key="frame" x="71" y="304" width="273" height="288"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWH-aI-YPT">
+                                <rect key="frame" x="157" y="683" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.18675297367525412" green="1" blue="0.30185019410037806" alpha="0.85787671232876717" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <state key="normal" title="So so..">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="sosoBtn:" destination="S0R-ju-QGh" eventType="touchUpInside" id="DyN-4L-dvo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="lEb-HC-u89"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="今日の気分チェック" image="smiley-64" id="QLl-EI-YRT"/>
                     <connections>
+                        <outlet property="bad" destination="8Zg-rc-ofR" id="XgA-LK-UPa"/>
                         <outlet property="feelingImage" destination="OR9-Xv-k6H" id="coK-aP-zst"/>
                         <outlet property="good" destination="G1U-hJ-8fR" id="iV1-L1-F8E"/>
+                        <outlet property="soso" destination="fWH-aI-YPT" id="0kq-fa-8nt"/>
                         <outlet property="todayDate" destination="fxx-Rq-CiJ" id="BXg-wQ-8KS"/>
                     </connections>
                 </viewController>
