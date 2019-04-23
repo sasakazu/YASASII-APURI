@@ -51,8 +51,11 @@ class addNotToDo: UIViewController {
     }
     
 
-    
-    
-
+//    別の場所タップで閉じる
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        addNotTF.text = addNotTF.text
+        self.view.endEditing(true)
+    }
+  
 
 }

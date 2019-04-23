@@ -36,18 +36,7 @@ class todayFeeling: UIViewController {
         feelingImage.image = image
         
     
-        let alert: UIAlertController = UIAlertController(title: nil, message: "今日も一日一歩ずついきましょう！", preferredStyle:  UIAlertController.Style.alert)
-        
-   
-        let defaultAction: UIAlertAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler:{
-            (action: UIAlertAction!) -> Void in
-            
-        })
-   
-        alert.addAction(defaultAction)
-        
-        present(alert, animated: true, completion: nil)
-    }
+     }
     
     
     
@@ -55,19 +44,6 @@ class todayFeeling: UIViewController {
         let image = UIImage(named: "soso")
         
         feelingImage.image = image
-        
-        let alert: UIAlertController = UIAlertController(title: nil, message: "ボチボチいきましょう。", preferredStyle:  UIAlertController.Style.alert)
-        
-        
-        let defaultAction: UIAlertAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler:{
-            (action: UIAlertAction!) -> Void in
-            
-        })
-        
-        alert.addAction(defaultAction)
-        
-        present(alert, animated: true, completion: nil)
-        
         
         
     }
@@ -77,19 +53,6 @@ class todayFeeling: UIViewController {
         let image = UIImage(named: "bad")
         
         feelingImage.image = image
-        
-        
-        let alert: UIAlertController = UIAlertController(title: nil , message: "無理しないでね", preferredStyle:  UIAlertController.Style.alert)
-        
-        
-        let defaultAction: UIAlertAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler:{
-            (action: UIAlertAction!) -> Void in
-            
-        })
-        
-        alert.addAction(defaultAction)
-        
-        present(alert, animated: true, completion: nil)
         
     }
     
