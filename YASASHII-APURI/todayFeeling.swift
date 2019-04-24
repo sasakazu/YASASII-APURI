@@ -12,6 +12,8 @@ class todayFeeling: UIViewController {
     @IBOutlet weak var todayDate: UILabel!
     @IBOutlet weak var feelingImage: UIImageView!
     
+    @IBOutlet weak var feelTV: UITextView!
+    
     @IBOutlet weak var good: UIButton!
     @IBOutlet weak var soso: UIButton!
     @IBOutlet weak var bad: UIButton!
@@ -35,6 +37,8 @@ class todayFeeling: UIViewController {
         
         feelingImage.image = image
         
+        feelTV.text = "今日は、いい気分！お出かけもいいかも。"
+        
     
      }
     
@@ -45,6 +49,7 @@ class todayFeeling: UIViewController {
         
         feelingImage.image = image
         
+        feelTV.text = "今日はぼちぼちいきましょう。"
         
     }
     
@@ -53,6 +58,8 @@ class todayFeeling: UIViewController {
         let image = UIImage(named: "bad")
         
         feelingImage.image = image
+        
+        feelTV.text = "今日は、ゆっくりいきましょう。"
         
     }
     

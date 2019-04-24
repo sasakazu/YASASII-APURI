@@ -9,7 +9,7 @@
 import UIKit
 import RealmSwift
 
-class addNotToDo: UIViewController {
+class addNotToDo: UIViewController, UITextFieldDelegate {
     
     
     @IBOutlet weak var notTV: UITextView!
@@ -24,6 +24,9 @@ class addNotToDo: UIViewController {
         
         notBtton.clipsToBounds = true
         notBtton.layer.cornerRadius = 5.0
+        
+        addNotTF.delegate = self
+
         
     }
     
@@ -57,5 +60,11 @@ class addNotToDo: UIViewController {
         self.view.endEditing(true)
     }
   
-
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        // キーボードを閉じる
+        textField.resignFirstResponder()
+        
+        return true
+    }
+    
 }
