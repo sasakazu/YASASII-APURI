@@ -12,6 +12,10 @@
 		7311EEFA226720FC0011B63E /* addNotToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311EEF9226720FC0011B63E /* addNotToDo.swift */; };
 		7311EEFD22686D890011B63E /* object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311EEFC22686D890011B63E /* object.swift */; };
 		7311EF0022686EE40011B63E /* notToDoTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311EEFF22686EE40011B63E /* notToDoTable.swift */; };
+		7329EFD02271ACAD00D51751 /* utuPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7329EFCF2271ACAD00D51751 /* utuPageController.swift */; };
+		7329EFD22271ACE900D51751 /* utuFirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7329EFD12271ACE900D51751 /* utuFirstPage.swift */; };
+		7329EFD42271AD9400D51751 /* utuSecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7329EFD32271AD9400D51751 /* utuSecondPage.swift */; };
+		7329EFD62271B06B00D51751 /* utuThirdPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7329EFD52271B06B00D51751 /* utuThirdPage.swift */; };
 		737AC7A4226C643000CBBBD8 /* todayFeeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737AC7A3226C642F00CBBBD8 /* todayFeeling.swift */; };
 		73892763795B17DB915B9D91 /* Pods_YASASHII_APURIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F757DE4DFD45302617A2CD7A /* Pods_YASASHII_APURIUITests.framework */; };
 		73D3D6A0226337DA00CF623C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D3D69F226337DA00CF623C /* AppDelegate.swift */; };
@@ -48,6 +52,10 @@
 		7311EEF9226720FC0011B63E /* addNotToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNotToDo.swift; sourceTree = "<group>"; };
 		7311EEFC22686D890011B63E /* object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = object.swift; sourceTree = "<group>"; };
 		7311EEFF22686EE40011B63E /* notToDoTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notToDoTable.swift; sourceTree = "<group>"; };
+		7329EFCF2271ACAD00D51751 /* utuPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utuPageController.swift; sourceTree = "<group>"; };
+		7329EFD12271ACE900D51751 /* utuFirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utuFirstPage.swift; sourceTree = "<group>"; };
+		7329EFD32271AD9400D51751 /* utuSecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utuSecondPage.swift; sourceTree = "<group>"; };
+		7329EFD52271B06B00D51751 /* utuThirdPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utuThirdPage.swift; sourceTree = "<group>"; };
 		737AC7A3226C642F00CBBBD8 /* todayFeeling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todayFeeling.swift; sourceTree = "<group>"; };
 		73D3D69C226337DA00CF623C /* YASASHII-APURI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YASASHII-APURI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D3D69F226337DA00CF623C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +122,17 @@
 			path = database;
 			sourceTree = "<group>";
 		};
+		7329EFCE2271AC7900D51751 /* 鬱の症状 */ = {
+			isa = PBXGroup;
+			children = (
+				7329EFCF2271ACAD00D51751 /* utuPageController.swift */,
+				7329EFD12271ACE900D51751 /* utuFirstPage.swift */,
+				7329EFD32271AD9400D51751 /* utuSecondPage.swift */,
+				7329EFD52271B06B00D51751 /* utuThirdPage.swift */,
+			);
+			path = "鬱の症状";
+			sourceTree = "<group>";
+		};
 		73D3D693226337DA00CF623C = {
 			isa = PBXGroup;
 			children = (
@@ -142,7 +161,8 @@
 				73D3D69F226337DA00CF623C /* AppDelegate.swift */,
 				73D3D6A1226337DA00CF623C /* ViewController.swift */,
 				73D3D6A3226337DA00CF623C /* Main.storyboard */,
-				737AC7A3226C642F00CBBBD8 /* todayFeeling.swift */,
+				73E7FE1D2271B54600E1A764 /* 今日の気分 */,
+				7329EFCE2271AC7900D51751 /* 鬱の症状 */,
 				7311EEFE22686D8F0011B63E /* database */,
 				7311EEFB226721100011B63E /* not ToDo */,
 				73D3D6A6226337DC00CF623C /* Assets.xcassets */,
@@ -168,6 +188,14 @@
 				73D3D6C1226337DC00CF623C /* Info.plist */,
 			);
 			path = "YASASHII-APURIUITests";
+			sourceTree = "<group>";
+		};
+		73E7FE1D2271B54600E1A764 /* 今日の気分 */ = {
+			isa = PBXGroup;
+			children = (
+				737AC7A3226C642F00CBBBD8 /* todayFeeling.swift */,
+			);
+			path = "今日の気分";
 			sourceTree = "<group>";
 		};
 		CD0588C2740D113595453711 /* Pods */ = {
@@ -422,11 +450,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7311EEFA226720FC0011B63E /* addNotToDo.swift in Sources */,
+				7329EFD02271ACAD00D51751 /* utuPageController.swift in Sources */,
 				73D3D6A2226337DA00CF623C /* ViewController.swift in Sources */,
+				7329EFD22271ACE900D51751 /* utuFirstPage.swift in Sources */,
 				737AC7A4226C643000CBBBD8 /* todayFeeling.swift in Sources */,
 				7311EF0022686EE40011B63E /* notToDoTable.swift in Sources */,
 				7311EEFD22686D890011B63E /* object.swift in Sources */,
+				7329EFD42271AD9400D51751 /* utuSecondPage.swift in Sources */,
 				73D3D6A0226337DA00CF623C /* AppDelegate.swift in Sources */,
+				7329EFD62271B06B00D51751 /* utuThirdPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
