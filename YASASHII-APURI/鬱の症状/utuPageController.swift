@@ -14,9 +14,12 @@ class utuPageController: UIPageViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        
         self.setViewControllers([getFirst()], direction: .forward, animated: true, completion: nil)
         
         self.dataSource = self
+        
+    
         
     }
     

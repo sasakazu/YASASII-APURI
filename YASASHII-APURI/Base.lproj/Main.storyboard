@@ -431,7 +431,7 @@
         <!--うつの症状-->
         <scene sceneID="Bw5-Wn-JBL">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="6qB-q2-nUc" customClass="utuPageController" customModule="YASASHII_APURI" customModuleProvider="target" sceneMemberID="viewController">
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="none" id="6qB-q2-nUc" customClass="utuPageController" customModule="YASASHII_APURI" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" title="うつの症状" id="WeA-Cq-ShX"/>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cyD-H5-eec" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -446,21 +446,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vd3-M6-RBC">
-                                <rect key="frame" x="160" y="401" width="94" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vd3-M6-RBC">
+                                <rect key="frame" x="185" y="389" width="44" height="118.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="99"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="k80-Ya-wLV">
+                                <rect key="frame" x="153" y="825" width="108" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="1vw-Mv-hmI"/>
+                                    <constraint firstAttribute="height" constant="37" id="VKn-C9-EcD"/>
+                                </constraints>
+                                <color key="pageIndicatorTintColor" red="1" green="0.7715559286" blue="0.32290766339999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Vd3-M6-RBC" firstAttribute="centerX" secondItem="1kx-QG-MeG" secondAttribute="centerX" id="6fD-mI-3EF"/>
+                            <constraint firstItem="Vd3-M6-RBC" firstAttribute="centerY" secondItem="1kx-QG-MeG" secondAttribute="centerY" id="Tms-3Q-nLx"/>
+                            <constraint firstItem="OVz-2D-Mlo" firstAttribute="trailing" secondItem="k80-Ya-wLV" secondAttribute="trailing" constant="153" id="fss-1B-Eoi"/>
+                            <constraint firstItem="k80-Ya-wLV" firstAttribute="bottom" secondItem="OVz-2D-Mlo" secondAttribute="bottom" id="nJN-kC-YCg"/>
+                            <constraint firstItem="k80-Ya-wLV" firstAttribute="leading" secondItem="OVz-2D-Mlo" secondAttribute="leading" constant="153" id="tBz-hP-2C3"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="OVz-2D-Mlo"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="trd-Vx-MEZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1790" y="719"/>
+            <point key="canvasLocation" x="1789.8550724637682" y="718.52678571428567"/>
         </scene>
         <!--Utu Second Page-->
         <scene sceneID="NLJ-L7-Qnn">
@@ -470,15 +485,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwH-CA-C8d">
-                                <rect key="frame" x="160" y="401" width="94" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwH-CA-C8d">
+                                <rect key="frame" x="179" y="389" width="56.5" height="118.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="99"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="X5y-OC-5l0">
+                                <rect key="frame" x="153" y="825" width="108" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="90H-mZ-NdR"/>
+                                    <constraint firstAttribute="width" constant="108" id="eSG-gm-QuU"/>
+                                </constraints>
+                                <color key="pageIndicatorTintColor" red="1" green="0.7715559286" blue="0.32290766339999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="X5y-OC-5l0" firstAttribute="bottom" secondItem="kx9-W6-R6M" secondAttribute="bottom" id="6cV-2t-sGs"/>
+                            <constraint firstItem="kx9-W6-R6M" firstAttribute="trailing" secondItem="X5y-OC-5l0" secondAttribute="trailing" constant="153" id="B9o-Zv-2jG"/>
+                            <constraint firstItem="QwH-CA-C8d" firstAttribute="centerX" secondItem="MBd-fJ-YAs" secondAttribute="centerX" id="EMF-44-NEN"/>
+                            <constraint firstItem="X5y-OC-5l0" firstAttribute="leading" secondItem="kx9-W6-R6M" secondAttribute="leading" constant="153" id="Ri2-Rm-x6K"/>
+                            <constraint firstItem="QwH-CA-C8d" firstAttribute="centerY" secondItem="MBd-fJ-YAs" secondAttribute="centerY" id="whO-Xa-NRa"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="kx9-W6-R6M"/>
                     </view>
                 </viewController>
@@ -494,15 +524,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXM-jN-h2N">
-                                <rect key="frame" x="160" y="401" width="94" height="94"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXM-jN-h2N">
+                                <rect key="frame" x="177.5" y="389" width="59" height="118.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="99"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="hY7-vX-MrF">
+                                <rect key="frame" x="153" y="825" width="108" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="DDz-3l-jZ2"/>
+                                    <constraint firstAttribute="height" constant="37" id="vzE-Cs-2SI"/>
+                                </constraints>
+                                <color key="pageIndicatorTintColor" red="1" green="0.7715559286" blue="0.32290766339999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="GXM-jN-h2N" firstAttribute="centerX" secondItem="cRr-uL-qFi" secondAttribute="centerX" id="Od6-kH-5Ir"/>
+                            <constraint firstItem="GXM-jN-h2N" firstAttribute="centerY" secondItem="cRr-uL-qFi" secondAttribute="centerY" id="XtD-Zq-l0B"/>
+                            <constraint firstItem="hY7-vX-MrF" firstAttribute="bottom" secondItem="wBP-zX-Nyj" secondAttribute="bottom" id="hKj-MI-vv9"/>
+                            <constraint firstItem="hY7-vX-MrF" firstAttribute="leading" secondItem="wBP-zX-Nyj" secondAttribute="leading" constant="153" id="ncP-1T-mk6"/>
+                            <constraint firstItem="wBP-zX-Nyj" firstAttribute="trailing" secondItem="hY7-vX-MrF" secondAttribute="trailing" constant="153" id="s5Z-bh-E1u"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="wBP-zX-Nyj"/>
                     </view>
                 </viewController>

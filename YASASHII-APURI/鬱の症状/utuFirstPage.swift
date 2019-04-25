@@ -19,6 +19,8 @@ class utuFirstPage: UIViewController {
     }
     
 
-   
+    @IBAction func nowPage(_ sender: UIPageControl) {
+    }
+    
 
 }
