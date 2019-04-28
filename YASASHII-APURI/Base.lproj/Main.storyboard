@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--やりたくないことリスト-->
+        <!--やらないことリスト-->
         <scene sceneID="r75-2g-6M0">
             <objects>
                 <viewController id="ETb-bC-fcM" customClass="notToDoTable" customModule="YASASHII_APURI" customModuleProvider="target" sceneMemberID="viewController">
@@ -46,7 +46,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hBT-Jw-vBI"/>
                     </view>
-                    <navigationItem key="navigationItem" title="やりたくないことリスト" id="3pb-a1-Sg7">
+                    <navigationItem key="navigationItem" title="やらないことリスト" id="3pb-a1-Sg7">
                         <barButtonItem key="rightBarButtonItem" title="追加する" id="pSR-EG-kZO">
                             <connections>
                                 <segue destination="xFw-Cc-eQ7" kind="show" id="D3j-Lf-Qqi"/>
@@ -284,11 +284,11 @@
             </objects>
             <point key="canvasLocation" x="-514" y="-19"/>
         </scene>
-        <!--やりたくないことリスト-->
+        <!--やらないことリスト-->
         <scene sceneID="h2h-DN-uiy">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1G9-tO-Nme" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="やりたくないことリスト" image="x--64" id="SMK-Ju-VgB"/>
+                    <tabBarItem key="tabBarItem" title="やらないことリスト" image="x--64" id="SMK-Ju-VgB"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cEg-kI-EBY">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -368,20 +368,12 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Bht-Ez-BXv">
-                                        <rect key="frame" x="0.0" y="160" width="414" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bht-Ez-BXv" id="H7O-v9-fJH">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                             <tableViewSection headerTitle="その他" id="UuI-e0-Db7">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="5Dr-uN-iHO">
-                                        <rect key="frame" x="0.0" y="232" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="188" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5Dr-uN-iHO" id="ESw-f7-tRm">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -398,7 +390,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="nTe-xd-7Nn">
-                                        <rect key="frame" x="0.0" y="276" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="232" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nTe-xd-7Nn" id="5HW-Gs-txW">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -471,9 +463,12 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HYB-Br-AVa">
-                                                <rect key="frame" x="87" y="174" width="240" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="やる気が出ない" translatesAutoresizingMaskIntoConstraints="NO" id="HYB-Br-AVa">
+                                                <rect key="frame" x="0.0" y="151" width="414" height="197"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="414" id="HE6-Ib-9Dk"/>
+                                                    <constraint firstAttribute="height" constant="197" id="oI2-iZ-Ds1"/>
+                                                </constraints>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -481,17 +476,18 @@
                                             <constraint firstItem="Vd3-M6-RBC" firstAttribute="top" secondItem="wAH-mr-Gu1" secondAttribute="top" constant="78" id="5lA-e8-UoN"/>
                                             <constraint firstAttribute="bottom" secondItem="Vd3-M6-RBC" secondAttribute="bottom" constant="648" id="8lK-3m-ES5"/>
                                             <constraint firstAttribute="trailing" secondItem="Vd3-M6-RBC" secondAttribute="trailing" constant="20" id="Hg0-uS-kBp"/>
+                                            <constraint firstItem="HYB-Br-AVa" firstAttribute="leading" secondItem="wAH-mr-Gu1" secondAttribute="leading" id="daE-uM-H3b"/>
                                             <constraint firstItem="Vd3-M6-RBC" firstAttribute="leading" secondItem="wAH-mr-Gu1" secondAttribute="leading" constant="20" id="k1f-nU-50D"/>
+                                            <constraint firstAttribute="trailing" secondItem="HYB-Br-AVa" secondAttribute="trailing" id="oCt-G6-gai"/>
+                                            <constraint firstItem="HYB-Br-AVa" firstAttribute="top" secondItem="Vd3-M6-RBC" secondAttribute="bottom" constant="8" id="u4I-YC-dgC"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="wAH-mr-Gu1" secondAttribute="trailing" id="4cf-ck-30N"/>
                                     <constraint firstItem="wAH-mr-Gu1" firstAttribute="leading" secondItem="1AP-Hh-Ela" secondAttribute="leading" id="A1x-Pq-44M"/>
-                                    <constraint firstAttribute="width" constant="414" id="Soq-6r-nOO"/>
                                     <constraint firstAttribute="bottom" secondItem="wAH-mr-Gu1" secondAttribute="bottom" id="cR5-UT-EqQ"/>
                                     <constraint firstItem="wAH-mr-Gu1" firstAttribute="top" secondItem="1AP-Hh-Ela" secondAttribute="top" id="gzx-Xi-f2M"/>
-                                    <constraint firstAttribute="height" constant="791" id="nvX-oF-gFA"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -688,5 +684,6 @@
         <image name="light-bulb-64" width="32" height="32"/>
         <image name="smiley-64" width="32" height="32"/>
         <image name="x--64" width="32" height="32"/>
+        <image name="やる気が出ない" width="288" height="254"/>
     </resources>
 </document>
