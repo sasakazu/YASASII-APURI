@@ -43,7 +43,7 @@ class todayFeeling: UIViewController {
         feelLabel.text = "☺️"
     
         feelTV.isHidden = false
-        feelTV.text = "今日は、いい気分！お出かけもいいかも。"
+        feelTV.text = "今日は、いい気分！"
         feelTV.textColor = #colorLiteral(red: 1, green: 0.4561018092, blue: 0.1495821985, alpha: 0.8435359589)
 
     
