@@ -57,7 +57,7 @@ class todayFeeling: UIViewController {
         feelLabel.text = "😐"
 
         feelTV.isHidden = false
-        feelTV.text = "今日はぼちぼちいきましょう。"
+        feelTV.text = "今日はぼちぼちね。"
         feelTV.textColor = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
         
     }
@@ -69,7 +69,7 @@ class todayFeeling: UIViewController {
         feelLabel.text = "😭"
         
         feelTV.isHidden = false
-        feelTV.text = "今日は、ゆっくりいきましょう。"
+        feelTV.text = "今日は、ゆっくりね。"
         feelTV.textColor = #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)
         
     }

@@ -12,15 +12,16 @@ import RealmSwift
 class addNotToDo: UIViewController, UITextFieldDelegate {
     
     
-    @IBOutlet weak var notTV: UITextView!
+    
+    @IBOutlet weak var notLabel: UILabel!
     @IBOutlet weak var notBtton: UIButton!
     @IBOutlet weak var addNotTF: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        notTV.clipsToBounds =  true
-        notTV.layer.cornerRadius = 5.0
+        notLabel.clipsToBounds =  true
+        notLabel.layer.cornerRadius = 5.0
         
         notBtton.clipsToBounds = true
         notBtton.layer.cornerRadius = 5.0
