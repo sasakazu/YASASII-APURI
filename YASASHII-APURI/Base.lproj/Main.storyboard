@@ -132,6 +132,22 @@
             </objects>
             <point key="canvasLocation" x="1905.7971014492755" y="-19.419642857142858"/>
         </scene>
+        <!--今日の気分-->
+        <scene sceneID="asI-2R-qbF">
+            <objects>
+                <viewController id="zDY-Ie-cR5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oWP-Nf-myM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="FM1-Rp-VPf"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="今日の気分" image="smiley-64" id="2YG-Vt-A1s"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AuK-AP-H4z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="251" y="-737"/>
+        </scene>
         <!--今日の気分チェック-->
         <scene sceneID="d0E-lc-fDQ">
             <objects>
@@ -160,7 +176,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1U-hJ-8fR">
-                                <rect key="frame" x="20" y="678" width="100" height="100"/>
+                                <rect key="frame" x="20" y="439.5" width="100" height="100"/>
                                 <color key="backgroundColor" red="1" green="0.45610180921068288" blue="0.14958219851941179" alpha="0.8435359589041096" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="0jx-h3-OF9"/>
@@ -175,7 +191,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Zg-rc-ofR">
-                                <rect key="frame" x="294" y="678" width="100" height="100"/>
+                                <rect key="frame" x="294" y="439.5" width="100" height="100"/>
                                 <color key="backgroundColor" red="0.11196934319201279" green="0.36718879876117283" blue="1" alpha="0.81680757705479456" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="DYd-WV-qH2"/>
@@ -190,7 +206,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWH-aI-YPT">
-                                <rect key="frame" x="157" y="678" width="100" height="100"/>
+                                <rect key="frame" x="157" y="439.5" width="100" height="100"/>
                                 <color key="backgroundColor" red="0.18675297367525412" green="1" blue="0.30185019410037806" alpha="0.85787671232876717" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="KmY-HS-gKT"/>
@@ -205,7 +221,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="ぼちぼちいきましょうね。" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fH5-tp-TzD">
-                                <rect key="frame" x="20" y="586" width="374" height="49"/>
+                                <rect key="frame" x="20" y="347.5" width="374" height="49"/>
                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="eUH-Zh-XJG"/>
@@ -216,7 +232,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="☺️" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wvX-Mm-TCD">
-                                <rect key="frame" x="20" y="208" width="374" height="370"/>
+                                <rect key="frame" x="20" y="208" width="374" height="131.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="374" id="mtf-63-Ofb"/>
                                     <constraint firstAttribute="height" constant="370" id="y0F-6k-o9e"/>
@@ -261,7 +277,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oSr-xk-wIJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="250.72463768115944" y="-735.26785714285711"/>
+            <point key="canvasLocation" x="990" y="-736"/>
         </scene>
         <!--うつセルフチェッカー-->
         <scene sceneID="HWO-A2-fj0">
@@ -403,7 +419,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="S0R-ju-QGh" kind="relationship" relationship="viewControllers" id="NH0-7Q-zzy"/>
+                        <segue destination="zDY-Ie-cR5" kind="relationship" relationship="viewControllers" id="mRb-Rg-3v0"/>
                         <segue destination="1G9-tO-Nme" kind="relationship" relationship="viewControllers" id="o0W-Gn-KZ4"/>
                         <segue destination="tdE-tx-ims" kind="relationship" relationship="viewControllers" id="a89-NK-W55"/>
                         <segue destination="d6p-GA-ziG" kind="relationship" relationship="viewControllers" id="F3N-Hq-3AT"/>
@@ -872,11 +888,11 @@
             </objects>
             <point key="canvasLocation" x="-514.49275362318849" y="710.49107142857144"/>
         </scene>
-        <!--うつセルフチェッカー-->
+        <!--セルフチェッカー-->
         <scene sceneID="RZB-PB-PBa">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tdE-tx-ims" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="うつセルフチェッカー" image="check" id="jC3-iG-j3e"/>
+                    <tabBarItem key="tabBarItem" title="セルフチェッカー" image="check" id="jC3-iG-j3e"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nwR-Vm-KbJ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
