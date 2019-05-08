@@ -28,6 +28,7 @@
 		73D3D6B5226337DC00CF623C /* YASASHII_APURITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D3D6B4226337DC00CF623C /* YASASHII_APURITests.swift */; };
 		73D3D6C0226337DC00CF623C /* YASASHII_APURIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D3D6BF226337DC00CF623C /* YASASHII_APURIUITests.swift */; };
 		73E733A2227FE9C300F322F3 /* checkQ3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E733A1227FE9C300F322F3 /* checkQ3.swift */; };
+		73E733A62282CBFF00F322F3 /* launchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E733A52282CBFF00F322F3 /* launchScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		73D3D6BF226337DC00CF623C /* YASASHII_APURIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YASASHII_APURIUITests.swift; sourceTree = "<group>"; };
 		73D3D6C1226337DC00CF623C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73E733A1227FE9C300F322F3 /* checkQ3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = checkQ3.swift; path = "セルフチェック/checkQ3.swift"; sourceTree = "<group>"; };
+		73E733A52282CBFF00F322F3 /* launchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = launchScreen.swift; sourceTree = "<group>"; };
 		81F6C8DB0305239D1C68D569 /* Pods-YASASHII-APURI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YASASHII-APURI.release.xcconfig"; path = "Target Support Files/Pods-YASASHII-APURI/Pods-YASASHII-APURI.release.xcconfig"; sourceTree = "<group>"; };
 		A3F4FBC6363779DE8B6E1AB7 /* Pods-YASASHII-APURI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YASASHII-APURI.debug.xcconfig"; path = "Target Support Files/Pods-YASASHII-APURI/Pods-YASASHII-APURI.debug.xcconfig"; sourceTree = "<group>"; };
 		B8A53A29526C205458EA9DB3 /* Pods-YASASHII-APURITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YASASHII-APURITests.debug.xcconfig"; path = "Target Support Files/Pods-YASASHII-APURITests/Pods-YASASHII-APURITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				7311EEFB226721100011B63E /* not ToDo */,
 				73D3D6A6226337DC00CF623C /* Assets.xcassets */,
 				73D3D6A8226337DC00CF623C /* LaunchScreen.storyboard */,
+				73E733A52282CBFF00F322F3 /* launchScreen.swift */,
 				73D3D6AB226337DC00CF623C /* Info.plist */,
 			);
 			path = "YASASHII-APURI";
@@ -468,6 +471,7 @@
 			files = (
 				7311EEFA226720FC0011B63E /* addNotToDo.swift in Sources */,
 				73AAB321227ECA34000EA5BC /* checkQ2.swift in Sources */,
+				73E733A62282CBFF00F322F3 /* launchScreen.swift in Sources */,
 				7329EFD02271ACAD00D51751 /* utuPageController.swift in Sources */,
 				73AAB31E227EC7F6000EA5BC /* checkQ1.swift in Sources */,
 				73D3D6A2226337DA00CF623C /* ViewController.swift in Sources */,
